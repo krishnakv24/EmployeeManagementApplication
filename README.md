@@ -31,7 +31,7 @@ This is an **MFC-based VC++ Dialog Application** developed using **Visual Studio
 ## How to Build
 
 1. **Clone the repository** to your local machine.
-2. **Open the solution file** (`EDataDisplay.sln`) in **Visual Studio 2015**.
+2. **Open the solution file** (`EDataDisplay.sln`) located in the **Source code** folder using **Visual Studio 2015**.
 3. **Build the solution** by selecting **Build Solution** from the **Build** menu.
 4. **In Case of Build Failures**: If the build process encounters any issues, you can run the **pre-built executable** located in the **Release folder**. This folder contains a working version of the application to ensure continued functionality.
    ![EMP_GUI_IMAGE](https://github.com/user-attachments/assets/490a73e1-f65b-4875-a7b9-10581083823e)
