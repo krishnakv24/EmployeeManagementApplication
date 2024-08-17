@@ -22,7 +22,7 @@ void CuiProgressBarDlg::DoDataExchange(CDataExchange* pDX)
 
 
 BEGIN_MESSAGE_MAP(CuiProgressBarDlg, CDialogEx)
-	ON_WM_DESTROY()
+	
 END_MESSAGE_MAP()
 
 BOOL CuiProgressBarDlg::OnInitDialog()
@@ -58,9 +58,8 @@ void CuiProgressBarDlg::OnCancel()
 {
 }
 
-
-void CuiProgressBarDlg::OnDestroy()
+void CuiProgressBarDlg::StopInfiniteProgress()
 {
 	m_stProgressBar.StopInfiniteProgress();
-	CDialogEx::OnDestroy();
 }
+

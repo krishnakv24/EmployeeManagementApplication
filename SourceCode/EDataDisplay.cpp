@@ -138,7 +138,8 @@ void CEDataDisplayApp::HidePopupInitialize()
 {
 	if (m_pDlgLoadProgress)
 	{
-		m_pDlgLoadProgress->DestroyWindow();
+		m_pDlgLoadProgress->StopInfiniteProgress();
+		m_pDlgLoadProgress->EndDialog(IDCANCEL);
 		delete m_pDlgLoadProgress;
 		m_pDlgLoadProgress = NULL;
 	}
