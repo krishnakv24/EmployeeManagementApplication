@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\CustomUIControl">
+      <UniqueIdentifier>{2c499818-0b76-4888-a08f-0acb12f89535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CustomUIControl">
+      <UniqueIdentifier>{f9a6da69-d97f-4553-9b83-7487eb4c3383}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EDataDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EDataDisplayDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uiListEmployeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uiInsertEmpDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uiUpdateEmpDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dtXMLHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dtEmployeeDataHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stEmpData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PXGroupBox.h">
+      <Filter>Header Files\CustomUIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="PXButton.h">
+      <Filter>Header Files\CustomUIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="uiHeaderCtrl.h">
+      <Filter>Header Files\CustomUIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="uiListControl.h">
+      <Filter>Header Files\CustomUIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="uiDialogEx.h">
+      <Filter>Header Files\CustomUIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticEx.h">
+      <Filter>Header Files\CustomUIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="EditEx.h">
+      <Filter>Header Files\CustomUIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="dtEmployeeIDManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uiProgressBarDlg.h">
+      <Filter>Header Files\CustomUIControl</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundProgress.h">
+      <Filter>Header Files\CustomUIControl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EDataDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EDataDisplayDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uiListEmployeData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uiInsertEmpDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uiUpdateEmpDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dtXMLHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dtEmployeeDataHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PXGroupBox.cpp">
+      <Filter>Source Files\CustomUIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="PXButton.cpp">
+      <Filter>Source Files\CustomUIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="uiHeaderCtrl.cpp">
+      <Filter>Source Files\CustomUIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="uiListControl.cpp">
+      <Filter>Source Files\CustomUIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="uiDialogEx.cpp">
+      <Filter>Source Files\CustomUIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticEx.cpp">
+      <Filter>Source Files\CustomUIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="EditEx.cpp">
+      <Filter>Source Files\CustomUIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="dtEmployeeIDManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundProgress.cpp">
+      <Filter>Source Files\CustomUIControl</Filter>
+    </ClCompile>
+    <ClCompile Include="uiProgressBarDlg.cpp">
+      <Filter>Source Files\CustomUIControl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EDataDisplay.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\EDataDisplay.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\EDataDisplay.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
