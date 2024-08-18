@@ -61,7 +61,7 @@ The **Employee Management Application** is a simple tool for managing employee r
    - Click the "UPDATE" button on the main interface.
    - Modify the details in the popup window and click "UPDATE" to save the changes in the XML file.
 
-     ![image](https://github.com/user-attachments/assets/de74461e-ac8d-4284-a765-a43aea047b08)
+![image](https://github.com/user-attachments/assets/ad5b2a86-b072-4c34-8f61-efc9a87ea21a)
 
 
 3. **DELETE Employee**:
