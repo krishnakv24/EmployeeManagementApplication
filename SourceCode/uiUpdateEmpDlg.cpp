@@ -34,7 +34,7 @@ END_MESSAGE_MAP()
 BOOL CuiUpdateEmpDlg::OnInitDialog()
 {
 	CuiDialogEx::OnInitDialog();
-	SetWindowText(L"Update Emp Data");
+	SetWindowText(L"Update Employee Data");
 
 	m_btnUpdate.InitStyle(RGB(0, 0, 139), RGB(0, 0, 139), RGB(224, 238, 255), RGB(0, 0, 139), TRUE);
 
